@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg" >
+
+    <RelativeLayout
+        android:id="@id/rat_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@id/rat_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/rat_icon"
+            android:textSize="25.0sp" />
+
+        <TextView
+            android:id="@id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rat_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20.0dip"
+            android:text="@string/rat_hint"
+            android:textColor="@color/black"
+            android:textSize="38.0sp" />
+
+        <RelativeLayout
+            android:id="@id/rat1_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15.0dip" >
+
+            <TextView
+                android:id="@id/textview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_select_rat"
+                android:textColor="@color/black"
+                android:textSize="38.0sp" />
+
+            <TextView
+                android:id="@id/rating_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/textview2"
+                android:layout_toRightOf="@id/textview2"
+                android:text="@string/rating_textview"
+                android:textColor="@color/red"
+                android:textSize="44.0sp" />
+        </RelativeLayout>
+
+        <RatingBar
+            android:id="@id/ratingBar"
+            style="@style/foodRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rat1_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rat_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20.0dip" >
+
+        <Button
+            android:id="@id/rating_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_cancel"
+            android:textSize="30.0sp" />
+
+        <Button
+            android:id="@id/rating_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30.0dip"
+            android:layout_toRightOf="@id/rating_cancel"
+            android:background="@drawable/btn_submit"
+            android:textSize="30.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

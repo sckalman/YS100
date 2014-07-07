@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@id/sign_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180.0dip"
+        android:layout_marginTop="20.0dip"
+        android:background="@drawable/sign_icon"
+        android:textSize="25.0sp" />
+
+    <RelativeLayout
+        android:id="@id/sign_board"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sign_icon"
+        android:layout_marginBottom="20.0dip"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginTop="15.0dip"
+        android:layout_toLeftOf="@id/sign_bt_layout"
+        android:background="@drawable/sign_board" >
+
+        <FrameLayout
+            android:id="@id/tablet_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="120.0dip"
+            android:layout_marginTop="5.0dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/sign_bt_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/sign_board"
+        android:layout_marginRight="15.0dip"
+        android:paddingTop="4.0dip" >
+
+        <Button
+            android:id="@id/tablet_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_clear"
+            android:textSize="35.0sp" />
+
+        <Button
+            android:id="@id/tablet_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tablet_clear"
+            android:layout_marginTop="30.0dip"
+            android:background="@drawable/btn_cancel"
+            android:textSize="35.0sp" />
+
+        <Button
+            android:id="@id/tablet_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tablet_cancel"
+            android:layout_marginTop="30.0dip"
+            android:background="@drawable/btn_submit"
+            android:textSize="35.0sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <FrameLayout
+        android:id="@id/viewpager_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.yinshuo.viewpager.JazzyViewPager
+            android:id="@id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_gravity="bottom"
+            android:background="#33000000"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@id/dot_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13.0dip"
+                android:orientation="horizontal" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@id/keyboard_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:visibility="gone" >
+
+        <EditText
+            android:id="@id/edit"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:password="true"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/app_bg" >
+
+            <android.inputmethodservice.KeyboardView
+                android:id="@id/keyboard_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="20.0dip"
+                android:background="@drawable/app_bg"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:keyBackground="@drawable/btn_keyboard_key"
+                android:keyPreviewLayout="@layout/preview_layout"
+                android:keyTextColor="@color/black"
+                android:keyTextSize="45.0sp"
+                android:labelTextSize="21.5sp"
+                android:popupLayout="@layout/preview_layout"
+                android:visibility="invisible" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

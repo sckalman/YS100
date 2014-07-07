@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="25.0%p" android:keyHeight="23.000002%p" android:horizontalGap="15.0px" android:verticalGap="15.0px"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="49" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num1" />
+        <Key android:codes="50" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num2" />
+        <Key android:codes="51" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num3" />
+        <Key android:codes="-2" android:isSticky="true" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/key_shift" />
+    </Row>
+    <Row>
+        <Key android:codes="52" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num4" />
+        <Key android:codes="53" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num5" />
+        <Key android:codes="54" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num6" />
+        <Key android:codes="-6" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/key_clear" />
+    </Row>
+    <Row>
+        <Key android:codes="55" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num7" />
+        <Key android:codes="56" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num8" />
+        <Key android:codes="57" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num9" />
+        <Key android:keyWidth="25.0%p" android:codes="-5" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/key_delete" />
+    </Row>
+    <Row>
+        <Key android:codes="-7" android:isRepeatable="true" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/xing" />
+        <Key android:codes="48" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/num0" />
+        <Key android:codes="-6" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/jing" />
+        <Key android:codes="-4" android:keyEdgeFlags="right" android:isRepeatable="true" android:iconPreview="@drawable/transparent" android:keyIcon="@drawable/key_submit" />
+    </Row>
+</Keyboard>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="dialog_top">false</item>
+    <item type="id" name="dialog_left_star">false</item>
+    <item type="id" name="dialog_title">false</item>
+    <item type="id" name="dialog_right_star">false</item>
+    <item type="id" name="dialog_content">false</item>
+    <item type="id" name="dialog_button_ok">false</item>
+    <item type="id" name="dialog_button_cancle">false</item>
+    <item type="id" name="iv_show_image">false</item>
+    <item type="id" name="edit">false</item>
+    <item type="id" name="keyboard_view">false</item>
+    <item type="id" name="rat_layout">false</item>
+    <item type="id" name="rat_icon">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="rat1_layout">false</item>
+    <item type="id" name="textview2">false</item>
+    <item type="id" name="rating_textview">false</item>
+    <item type="id" name="ratingBar">false</item>
+    <item type="id" name="rating_cancel">false</item>
+    <item type="id" name="rating_ok">false</item>
+    <item type="id" name="viewpager_layout">false</item>
+    <item type="id" name="viewpager">false</item>
+    <item type="id" name="dot_layout">false</item>
+    <item type="id" name="keyboard_layout">false</item>
+    <item type="id" name="album_imgview">false</item>
+    <item type="id" name="album_name">false</item>
+    <item type="id" name="sign_icon">false</item>
+    <item type="id" name="sign_board">false</item>
+    <item type="id" name="sign_bt_layout">false</item>
+    <item type="id" name="tablet_view">false</item>
+    <item type="id" name="tablet_clear">false</item>
+    <item type="id" name="tablet_cancel">false</item>
+    <item type="id" name="tablet_ok">false</item>
+</resources>
